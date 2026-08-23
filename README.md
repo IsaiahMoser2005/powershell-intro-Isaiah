@@ -1,5 +1,4 @@
-# powershell-intro-Isaiah
-#PowerShell Learning Journal
+# PowerShell Learning Journal
 
-##Module 1 - Foundations
+## Module 1 - Foundations
 Starting my PowerShell journey.

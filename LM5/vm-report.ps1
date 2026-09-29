@@ -1,1 +1,1 @@
-Get-AzVM | Select-Object Name, ResourceGroupName
+Get-AzVM | Select-Object Name, ResourceGroupName, StatusCode

@@ -1,1 +1,3 @@
-Get-AzVM | Select-Object Name, ResourceGroupName, StatusCode
+$vmreport = Get-AzVM | Select-Object Name, ResourceGroupName, StatusCode
+
+$vmreport

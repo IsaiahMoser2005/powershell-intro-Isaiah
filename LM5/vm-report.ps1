@@ -5,4 +5,4 @@ Write-Host ""
 
 $vmreport = Get-AzVM
 
-$vmreport | Select-Object Name, ResourceGroupName, StatusCode
+$vmreport | Select-Object Name, ResourceGroupName, StatusCode, LicenseType

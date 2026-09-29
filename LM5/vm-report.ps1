@@ -1,3 +1,8 @@
-$vmreport = Get-AzVM | Select-Object Name, ResourceGroupName, StatusCode
+Write-Host "Azure VM Inventory Report"
+Write-Host "Generated: $(Get-Date)"
+Write-Host ""
 
-$vmreport
+
+$vmreport = Get-AzVM
+
+$vmreport | Select-Object Name, ResourceGroupName, StatusCode

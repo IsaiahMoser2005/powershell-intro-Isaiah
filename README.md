@@ -11,3 +11,6 @@ Getting my professional workflow set up.
 
 ## Module 4 - Understanding PowerShell Objects
 Learning what is stored in objects and how to use that information.
+
+##  Learning Module 5 - The PowerShell Pipeline
+Learning how to utilize the PowerShell pipeline in my commands.

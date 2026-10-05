@@ -26,4 +26,5 @@ The reccomendation it gave me was to add addition status information, like locat
 a more detailed report.
 
 I added the location, and had to research how to add the VM size to the report,
-which led to me learning about using hashtables to rename properties
+which led to me learning about how to use hashtables to create custom
+properties for the Select-Object cmdlet.

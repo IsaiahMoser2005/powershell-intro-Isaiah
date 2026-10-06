@@ -13,4 +13,7 @@ Getting my professional workflow set up.
 Learning what is stored in objects and how to use that information.
 
 ##  Learning Module 5 - The PowerShell Pipeline
-Learning how to utilize the PowerShell pipeline in my commands.
+Learning how to utilize the PowerShell pipeline in my commands and scripts.
+
+##  Learning Module 6 - Filtering Data with Where-Object
+Using Where-Object to filter data in my scripts.

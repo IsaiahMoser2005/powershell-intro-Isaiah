@@ -9,9 +9,11 @@ $vms | Select-Object Name, ResourceGroupName, PowerState
 
 foreach ($vm in $vms) {
 
-$vm.name
-
     if ($vm.PowerState -eq "VM running") {
         Write-Host "VM $($vm.Name) is Healthy."
+    }
+
+    if ($vm.PowerState -ne "VM running") {
+        Write-Host "VM $($vm.Name) needs attention."
     }
 }

@@ -18,11 +18,12 @@ Write-Host""
 # Display Healthy Results
     Write-Host "=== VM Healthy Results ===" -ForegroundColor Green
     Write-Host ""
+    foreach ($vm in $vms) {
     if ($vm.PowerState -eq "VM running") {
         Write-Host "VM $($vm.Name) is Healthy."
         Write-Host ""
     }
-
+    }
 # Display VMs that need attention
     Write-Host "=== Needs Attention ===" -ForegroundColor Red
     Write-Host ""

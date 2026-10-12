@@ -8,5 +8,10 @@ $vms = Get-AzVM -Status
 $vms | Select-Object Name, ResourceGroupName, PowerState
 
 foreach ($vm in $vms) {
-    $vm.Name
+
+$vm.name
+
+    if ($vm.PowerState -eq "VM running") {
+        Write-Host "VM $($vm.Name) is Healthy."
+    }
 }

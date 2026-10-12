@@ -17,3 +17,6 @@ Learning how to utilize the PowerShell pipeline in my commands and scripts.
 
 ##  Learning Module 6 - Filtering Data with Where-Object
 Using Where-Object to filter data in my scripts.
+
+##  Learning Module 7 - Automation Foundations and Capstone Development
+Learning to use logic and loops in my scripts.
